@@ -8,6 +8,8 @@ const { message } = require("./message");
 const { donate } = require("./donate");
 const { about } = require("./about");
 module.exports = {
+  // 运行npm run build命令后，打包后的文件，将会放在public目录中，默认是docs/.vuepress/dist目录，此public目录和docs目录同级
+  dest: "public",
   // base: '/REPO/',//如果你准备发布到 https://<USERNAME>.github.io/<REPO>/ ，也就是说你的仓库地址是 https://github.com/<USERNAME>/<REPO> ，则将 base 设置为 "/<REPO>/"。
 
   /*
