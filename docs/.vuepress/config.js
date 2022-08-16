@@ -70,12 +70,13 @@ module.exports = {
           "/tag/",
           "/photo/",
           "/",
-          "/archive",
-          "/aurora-music",
-          "aurora-archive",
+          "/archive/",
+          "/aurora-music/",
+          "/aurora-archive/",
           "/article/文章内配置.html",
-          "/aurora-coze",
+          "/aurora-coze/",
           "/next-mood/",
+          "/register/",
         ],
         noTitle: "暂时没有标题配置",
       },
@@ -101,7 +102,7 @@ module.exports = {
 
         //本地歌曲
         localSongs: {
-          coverUrl: "/avatar.jpg",
+          coverUrl: "",
           songs: [
             // 1:Old Memory
             {
@@ -117,10 +118,10 @@ module.exports = {
                 "https://p1.music.126.net/GSciAiBHt0OplBApxsUC-A==/7742760882881891.jpg?param=130y130",
             },
             {
-              path: "/song/3.mp3",
-              songName: "心の旋律 - TARI TARI",
+              path: "/music/3.mp3",
+              songName: "告白の夜 - Ayasa绚沙",
               cover:
-                "https://p1.music.126.net/GSciAiBHt0OplBApxsUC-A==/7742760882881891.jpg?param=130y130",
+                "https://img2.kuwo.cn/star/albumcover/500/62/99/1907791480.jpg",
             },
             // 4
             {
@@ -164,6 +165,34 @@ module.exports = {
               songName: "closing Acoustic Guitar - Leaf",
               cover:
                 "https://p1.music.126.net/DRI4mHu_Nm_s2Y7fM1mF4w==/823534209247764.jpg?param=130y130",
+            },
+            {
+              path: "/song/11.mp3",
+              songName: "Sakura Tears - Snigellin",
+              cover: "/avatar.jpg",
+            },
+            {
+              path: "/song/12.mp3",
+              songName: "鸟之诗 (八音盒版) - 折戸伸治",
+              cover:
+                "https://p2.music.126.net/CI_u3SfBgdTIAQtFnn_wnQ==/6040716883009850.jpg?param=130y130",
+            },
+            {
+              path: "/song/13.mp3",
+              songName: "Unicorn - 澤野弘之",
+              cover:
+                "http://p1.music.126.net/cGpQM5tQzJQJfAAfjgKFWA==/6023124697347234.jpg?param=130y130",
+            },
+            {
+              path: "/song/14.mp3",
+              songName: "夜の向日葵 - 松本文紀",
+              cover:
+                "http://p1.music.126.net/3rtl6iK4Cue6mhE02ZNj2A==/109951166171557761.jpg?param=130y130",
+            },
+            {
+              path: "/song/15.mp3",
+              songName: "Sion - 天門",
+              cover: "http://p1.music.126.net/tSRITWmM45KmvQqLk9WOaA==/3275445140058616.jpg?param=130y130",
             },
           ],
         },

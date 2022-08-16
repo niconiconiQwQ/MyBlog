@@ -87,10 +87,6 @@ module.exports = {
           name: "Ctrl C V",
           score: 90,
         },
-        {
-          name: "Ctrl C V",
-          score: 90,
-        },
       ],
       showTag: false,
     },

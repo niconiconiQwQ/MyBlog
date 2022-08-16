@@ -205,7 +205,7 @@ module.exports = {
     // github
     {
       text: "凉宫",
-      link: "www.baidu.com",
+      link: "https://github.com/niconiconiQwQ",
       iconClass: "aurora-navbar-github1",
     },
   ],
